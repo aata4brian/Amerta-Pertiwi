@@ -1,3 +1,11 @@
+# Amerta Pertiwi — Earlier Website Prototype
+
+> **Superseded as the main portfolio entry:** continue at [Amerta Pertiwi's canonical repository](https://github.com/aata4brian/Amerta_Pertiwi_v2). This repository preserves the first static prototype and its history. It has not been archived or deleted.
+
+The newer repository separates configuration and responsive styling and includes additional destination pages. Its `Develop` branch still needs a separate release review. This notice does not redirect or alter either production deployment.
+
+## Original setup and project notes
+
 # Desa Wisata Patakbanteng — Professional Motion Prototype
 
 ## Membuka website
