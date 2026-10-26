@@ -1,38 +1,23 @@
-# Amerta Pertiwi — Earlier Website Prototype
+# Amerta Pertiwi — versi awal
 
-> **Superseded as the main portfolio entry:** continue at [Amerta Pertiwi's canonical repository](https://github.com/aata4brian/Amerta_Pertiwi_v2). This repository preserves the first static prototype and its history. It has not been archived or deleted.
-
-The newer repository separates configuration and responsive styling and includes additional destination pages. Its `Develop` branch still needs a separate release review. This notice does not redirect or alter either production deployment.
-
-## Original setup and project notes
-
-# Desa Wisata Patakbanteng — Professional Motion Prototype
+Prototipe awal website informasi Desa Patakbanteng. Pengembangan berikutnya ada di [Amerta_Pertiwi_v2](https://github.com/aata4brian/Amerta_Pertiwi_v2); repo ini menyimpan versi pertama.
 
 ## Membuka website
-Buka `index.html` langsung di browser, atau jalankan server lokal:
+
+Buka `index.html` di browser, atau jalankan:
 
 ```bash
 python -m http.server 8000
 ```
 
-Lalu buka `http://localhost:8000`.
+Lalu buka [localhost:8000](http://localhost:8000).
 
 ## Halaman
-- `index.html` — Beranda
-- `jelajahi.html` — Jelajahi wisata
-- `rumah-bibit.html` — Rumah Bibit dan koleksi pohon
-- `pendakian.html` — Pendakian Gunung Prau
-- `penginapan.html` — Penginapan
-- `layanan.html` — Layanan wisata
-- `kuliner.html` — Kuliner dan UMKM
-- `paket.html` — Paket wisata
-- `perjalanan.html` — Informasi perjalanan
-- `tentang.html` — Tentang desa
-- `berita.html` — Berita dan agenda
-- `kontak.html` — Direktori kontak
 
-## Pengaturan penting
-Ganti `whatsappNumber` di `assets/site.js` dengan nomor resmi, format internasional tanpa tanda `+`.
+Website memuat beranda, jelajah wisata, Rumah Bibit, pendakian, penginapan, layanan, kuliner, paket wisata, perjalanan, profil desa, berita, dan kontak.
 
-## Catatan data
-Harga, nomor kontak, status jalur, jadwal, koleksi bibit, serta informasi operasional masih merupakan data prototipe dan harus diverifikasi sebelum publikasi.
+Tampilan dan interaksi bersama berada di `assets/site.css` dan `assets/site.js`. Nomor WhatsApp memakai variabel `whatsappNumber` dengan format internasional tanpa tanda `+`.
+
+Harga, kontak, jadwal, kondisi jalur, dan informasi operasional masih berupa data prototipe. Konfirmasi ke pengelola sebelum digunakan sebagai informasi pengunjung.
+
+[Perbedaan dengan versi berikutnya](docs/REPOSITORY_STATUS.md).
